@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FEFFFF"
+    android:foregroundGravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleFuncionamiento"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_weight="0"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:text="FUNCIONAMIENTO AHORCADO"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblFuncionamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/knewave"
+            android:gravity="center|top"
+            android:text="@string/funcionamiento_ahorcado"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblFuncionamiento2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50px"
+            android:layout_weight="0"
+            android:fontFamily="@font/knewave"
+            android:gravity="center"
+            android:text="@string/funcionamiento_ahorcado2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

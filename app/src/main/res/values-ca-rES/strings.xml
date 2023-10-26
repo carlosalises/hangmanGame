@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PENJAT</string>
+    <string name="title_acceso_ahorcado">ACCES PENJAT</string>
+    <string name="correo">CORREU ELECTRÓNIC</string>
+    <string name="pwd">CONTRASENYA</string>
+    <string name="btn_acceso">ACCEDIR</string>
+    <string name="btn_ca">CATALÀ</string>
+    <string name="btn_es">CASTELLÀ</string>
+    <string name="btn_en">ANGLÉS</string>
+    <string name="envio_letra">ENVIAR LLETRA</string>
+    <string name="letras_noencontradas">LLETRES NO TROBADES</string>
+    <string name="letras_encontradas">LLETRES TROBADES</string>
+    <string name="letra_introducida">LLETRA</string>
+    <string name="btnpop_jugar">JUGAR</string>
+    <string name="btnpop_salir">SORTIR</string>
+    <string name="title_consulta">CONSULTA LES TEVES PARTIDES</string>
+    <string name="btn_partidas_jugadores">PARTIDES Y JUGADORS</string>
+    <string name="btn_verpartidas">VEURE PARTIDES</string>
+    <string name="title_jugadores">JUGADORS PENJAT</string>
+    <string name="hint_view_usuario">NOMBRE DE USUARI (PART ABANS DE @)</string>
+    <string name="funcionamiento_ahorcado">Penjat Carlos és un joc de endevinalles per a un jugador, on hauràs de anar suggerint lletres per endevinar una paraula aleatòria dins de un nombre de intents</string>
+    <string name="funcionamiento_ahorcado2">Per jugar hauràs de introduir una lletra, aquesta lletra pot estar o no dins de la paraula així que vés amb compte, una lletra en ser utilitzades ja no podrà tornar a ser-la, per cada error un dibuix anirà evolucionant fins a un total de 5</string>
+    <string name="btn_funcionamiento">FUNCIONAMENT PENJAT</string>
+</resources>

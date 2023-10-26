@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HANGMAN</string>
+    <string name="title_acceso_ahorcado">HANGED ACCESS</string>
+    <string name="correo">MAIL</string>
+    <string name="pwd">PASSWORD</string>
+    <string name="btn_acceso">ACCESS</string>
+    <string name="btn_ca">CATALAN</string>
+    <string name="btn_es">SPANISH</string>
+    <string name="btn_en">ENGLISH</string>
+    <string name="envio_letra">SEND LETTER</string>
+    <string name="letras_noencontradas">LETTERS NOT FOUNDS</string>
+    <string name="letras_encontradas">FOUND LETTERS</string>
+    <string name="letra_introducida">LETTER</string>
+    <string name="btnpop_jugar">PLAY</string>
+    <string name="btnpop_salir">EXIT</string>
+    <string name="title_consulta">CHECK YOUR GAMES</string>
+    <string name="btn_partidas_jugadores">GAMES AND PLAYERS</string>
+    <string name="btn_verpartidas">SEE GAMES</string>
+    <string name="title_jugadores">HANGMAN PLAYERS</string>
+    <string name="hint_view_usuario">USER NAME (PART BEFORE THE @)</string>
+    <string name="funcionamiento_ahorcado">Hangman Carlos is a guessing game for one player, in which you will have to suggest letters to guess a random word within a number of attempts</string>
+    <string name="funcionamiento_ahorcado2">To play you must enter a letter, that letter may or may not be within the word so be careful, when a letter is used it will not be able to be again, for each mistake a drawing will evolve up to a total of 5</string>
+    <string name="btn_funcionamiento">HANGMAN FUNCTIONING</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AHORCADO</string>
+    <string name="title_acceso_ahorcado">ACCESO AHORCADO</string>
+    <string name="correo">CORREO ELECTRÓNICO</string>
+    <string name="pwd">CONTRASEÑA</string>
+    <string name="btn_acceso">ACCEDER</string>
+    <string name="btn_ca">CATALÁN</string>
+    <string name="btn_es">CASTELLANO</string>
+    <string name="btn_en">INGLÉS</string>
+    <string name="envio_letra">ENVIAR LETRA</string>
+    <string name="letras_noencontradas">LETRAS NO ENCONTRADAS</string>
+    <string name="letras_encontradas">LETRAS ENCONTRADAS</string>
+    <string name="letra_introducida">LETRA</string>
+    <string name="btnpop_jugar">JUGAR</string>
+    <string name="btnpop_salir">SALIR</string>
+    <string name="title_consulta">CONSULTA TUS PARTIDAS</string>
+    <string name="btn_partidas_jugadores">PARTIDAS Y JUGADORES</string>
+    <string name="btn_verpartidas">VER PARTIDAS</string>
+    <string name="title_jugadores">JUGADORES AHORCADO</string>
+    <string name="hint_view_usuario">NOMBRE DE USUARIO (PARTE ANTES DE @)</string>
+    <string name="funcionamiento_ahorcado">Ahorcado Carlos es un juego de adivinanzas para un jugador, en el que tendras que ir sugiriendo letras para adivinar una palabra aleatoria dentro de un numero de intentos</string>
+    <string name="funcionamiento_ahorcado2">Para jugar deberas introducir una letra, esa letra puede estar o no dentro de la palabra asi que ten cuidado, las letras introducidas ya no podran volver a ser utilitzadas, por cada letra no encontrada un dibujo en la parte superior ira evolucionando hasta un total de 5 errores, en caso contrario la palabra ira siendo decubierta</string>
+    <string name="btn_funcionamiento">FUNCIONAMIENTO AHORCADO</string>
+
+</resources>

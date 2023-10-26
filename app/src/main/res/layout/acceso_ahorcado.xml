@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#0DA5DF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCastellano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:layout_weight="0"
+            android:backgroundTint="#003B4A"
+            android:fontFamily="@font/knewave"
+            android:text="@string/btn_es"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="5px" />
+
+        <Button
+            android:id="@+id/btnCatalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:layout_weight="0"
+            android:backgroundTint="#003B4A"
+            android:fontFamily="@font/knewave"
+            android:text="@string/btn_ca"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="5px" />
+
+        <Button
+            android:id="@+id/btnIngles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:layout_weight="0"
+            android:backgroundTint="#003B4A"
+            android:fontFamily="@font/knewave"
+            android:text="@string/btn_en"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="5px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/knewave"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/title_acceso_ahorcado"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/nombreJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/correoJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:fontFamily="@font/knewave"
+        android:gravity="center"
+        android:hint="@string/pwd"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAcceder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:layout_weight="0"
+        android:backgroundTint="#003B4A"
+        android:fontFamily="@font/knewave"
+        android:text="@string/btn_acceso"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5px" />
+
+    <TextView
+        android:id="@+id/lblError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_weight="0"
+        android:fontFamily="@font/knewave"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnconsultarPartidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_weight="0"
+        android:backgroundTint="#003B4A"
+        android:fontFamily="@font/knewave"
+        android:text="@string/btn_partidas_jugadores"
+        android:textColor="#FFFFFF"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5px" />
+
+    <Button
+        android:id="@+id/btnFuncionamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:backgroundTint="#003B4A"
+        android:fontFamily="@font/knewave"
+        android:text="@string/btn_funcionamiento"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbljugadoresRegistrados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:layout_weight="0"
+            android:fontFamily="@font/knewave"
+            android:gravity="center|center_horizontal"
+            android:text="USUARIOS REGISTRADOS"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numJugadores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:layout_weight="0"
+            android:fontFamily="@font/knewave"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
